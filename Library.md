@@ -21,12 +21,8 @@ npm install @vertex-privacy/sdk
 This method splits the file into chunks and applies the **Poseidon Cipher** locally on the device.
 
 * **Input:** Raw File (up to 100GB).
-* 
-**Process:** Generates encrypted "blobs" ready for IPFS pinning.
-
-
-* 
-**Security:** Data never leaves the client unencrypted.
+* **Process:** Generates encrypted "blobs" ready for IPFS pinning.
+* **Security:** Data never leaves the client unencrypted.
 
 
 
@@ -34,12 +30,8 @@ This method splits the file into chunks and applies the **Poseidon Cipher** loca
 
 Invokes the **Groth16 ZK-circuit** to create a proof of integrity.
 
-* 
-**Function:** Proves the encrypted data matches the metadata (size, type) without revealing content.
-
-
-* 
-**Output:** A succinct $\pi$ proof to be submitted to the BSC Verifier contract.
+* **Function:** Proves the encrypted data matches the metadata (size, type) without revealing content.
+* **Output:** A succinct $\pi$ proof to be submitted to the BSC Verifier contract.
 
 
 
@@ -47,12 +39,8 @@ Invokes the **Groth16 ZK-circuit** to create a proof of integrity.
 
 Establishes the private P2P key exchange between buyer and seller.
 
-* 
-**Mechanism:** Uses Elliptic Curve Diffie-Hellman to derive a shared secret.
-
-
-* 
-**Privacy:** The decryption key is never stored on-chain or on Vertex servers.
+* **Mechanism:** Uses Elliptic Curve Diffie-Hellman to derive a shared secret.
+* **Privacy:** The decryption key is never stored on-chain or on Vertex servers.
 
 
 
@@ -62,13 +50,8 @@ Establishes the private P2P key exchange between buyer and seller.
 
 Vertex is storage-agnostic. You can develop your own storage provider by implementing the `IVertexStorage` interface.
 
-* 
-**Default:** IPFS (via pinning services).
-
-
-* 
-**Community Ready:** Arweave, Filecoin, or Private S3 Buckets.
-
+* **Default:** IPFS (via pinning services).
+* **Community Ready:** Arweave, Filecoin, or Private S3 Buckets.
 
 
 ---
@@ -79,8 +62,7 @@ For developers building their own frontends, the **Vertex Verifier** can be call
 
 * **Contract Address (Mainnet):** `0x...[Insert_Contract_Address]`
 * **Method:** `verifyTradeProof(bytes32 commitment, bytes proof)`
-* 
-**Gas Efficiency:** Optimized via the Poseidon hash for ultra-low costs on BSC.
+* **Gas Efficiency:** Optimized via the Poseidon hash for ultra-low costs on BSC.
 
 
 
@@ -88,16 +70,9 @@ For developers building their own frontends, the **Vertex Verifier** can be call
 
 ### **5. Developer Resources**
 
-* 
-**GitHub Repository:** Explore our full open-source codebase, including ZK-circuits and contract logic.
-
-
-* 
-**Grant Program:** We provide $VTX incentives for developers building niche marketplaces or storage adapters.
-
-
-* 
-**Bug Bounty:** Earn rewards for identifying optimizations in our Poseidon implementation.
+* **GitHub Repository:** Explore our full open-source codebase, including ZK-circuits and contract logic.
+* **Grant Program:** We provide $VTX incentives for developers building niche marketplaces or storage adapters.
+* **Bug Bounty:** Earn rewards for identifying optimizations in our Poseidon implementation.
 
 
 
@@ -175,20 +150,13 @@ const tradeResult = await vertex.initiateTrade({
 
 ### **Technical Advantages for Developers**
 
-* 
-**ZK-Optimized Hashing:** Utilizing the Poseidon hash ensures ultra-low gas fees on BSC.
+* **ZK-Optimized Hashing:** Utilizing the Poseidon hash ensures ultra-low gas fees on BSC.
+* **Privacy by Design:** Data is encrypted locally; it is already a "cryptographic blob" by the time it reaches IPFS.
 
 
-* 
-**Privacy by Design:** Data is encrypted locally; it is already a "cryptographic blob" by the time it reaches IPFS.
+* **Storage Agnostic:** While IPFS is the default, you can build custom adapters for Arweave, Filecoin, or private clouds.
 
-
-* 
-**Storage Agnostic:** While IPFS is the default, you can build custom adapters for Arweave, Filecoin, or private clouds.
-
-
-* 
-**No Protocol Rents:** Vertex facilitates a direct P2P connection with zero protocol fees.
+* **No Protocol Rents:** Vertex facilitates a direct P2P connection with zero protocol fees.
 
 
 

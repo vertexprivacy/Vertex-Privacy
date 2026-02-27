@@ -1,4 +1,4 @@
-# 🚀 LuminaZK - Quick Start Guide
+# 🚀 Vertex Privacy - Quick Start Guide
 
 ## Setup Development Environment
 
@@ -45,7 +45,7 @@ Open http://localhost:3000
 ## Features Implemented
 
 ✅ **Dark/Light Theme** - Toggle with Sun/Moon icon
-✅ **Wallet Connection** - Connect Ethereum wallets (MetaMask, WalletConnect, etc.)
+✅ **Wallet Connection** - Connect Binance wallets (MetaMask, WalletConnect, etc.)
 ✅ **Multi-Chain** - Ethereum, Polygon, Arbitrum, Optimism, Base, Sepolia
 ✅ **Responsive Design** - Mobile, tablet, desktop optimized
 ✅ **ENS Support** - Display .eth names instead of addresses
@@ -89,10 +89,10 @@ npm run lint     # Run ESLint
 
 ## Branding
 
-- **Name**: LuminaZK
-- **Theme**: Dark green matrix-inspired
+- **Name**: Vertex Privacy
+- **Theme**: Dark Purple matrix-inspired
 - **Default**: Dark mode
-- **Colors**: Neon green (#72f2a0) on deep black
+- **Colors**: Neon Purple (#72f2a0) on deep black
 
 ## Need Help?
 
@@ -103,4 +103,4 @@ npm run lint     # Run ESLint
 
 ---
 
-Built with 💚 by the LuminaZK team
+Built with 💚 by Vertex Privacy team

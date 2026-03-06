@@ -1,48 +1,56 @@
 # 🗺️ Vertex Privacy: Strategic Roadmap
 
-> **Status Proyek:** ![Development](https://img.shields.io/badge/Status-Active-brightgreen) ![Security](https://img.shields.io/badge/Security-ZK--SNARKs-blue) ![Network](https://img.shields.io/badge/Network-BSC-yellow)
+> **Project Status:** ![Development](https://img.shields.io/badge/Status-Active-brightgreen) ![Security](https://img.shields.io/badge/Security-ZK--SNARKs-blue) ![Network](https://img.shields.io/badge/Network-BSC-yellow)
 
-Berikut adalah peta jalan pengembangan **Vertex Privacy** untuk membangun infrastruktur perdagangan data yang berdaulat.
+The official path for **Vertex Privacy** development. We are building the foundational infrastructure for the "Dark-State" economy on the Binance Smart Chain.
 
 ---
 
 ### 🟦 PHASE 1: GENESIS & CORE PROTOCOL
-> **Focus:** Membangun fondasi kriptografi yang solid.
+> **Focus:** Establishing the mathematical foundation and cryptographic core.
+> 
+> ![Progress](https://geps.dev/progress/100)
 
-- [x] ![Completed](https://img.shields.io/badge/Status-Completed-success) **Whitepaper v1.0 Release** (Vertex Privacy Branding)
-- [x] ![Completed](https://img.shields.io/badge/Status-Completed-success) **$VTX Token Deployment** (1,000,000,000 Supply)
+- [x] ![Completed](https://img.shields.io/badge/Status-Completed-success) **Whitepaper v1.0 Release** (Vertex Privacy Rebranding)
+- [x] ![Completed](https://img.shields.io/badge/Status-Completed-success) **$VTX Token Deployment** (1,000,000,000 Total Supply)
 - [x] ![Completed](https://img.shields.io/badge/Status-Completed-success) **Poseidon Cipher Implementation** (ZK-Friendly Encryption)
-- [x] ![Completed](https://img.shields.io/badge/Status-Completed-success) **Core Smart Contracts** (BSC Testnet)
+- [x] ![Completed](https://img.shields.io/badge/Status-Completed-success) **Core Smart Contracts** (BSC Mainnet Deployment)
 
 ---
 
 ### 🟨 PHASE 2: THE DARK MARKETPLACE
-> **Focus:** Peluncuran dApp dan integrasi penyimpanan terdesentralisasi.
+> **Focus:** Launching the dApp and automating decentralized storage infrastructure.
+> 
+> ![Progress](https://geps.dev/progress/65)
 
-- [ ] ![In Progress](https://img.shields.io/badge/Status-In--Progress-yellow) **Vertex dApp v1.0 Launch** (Mainnet Gateway)
-- [ ] ![In Progress](https://img.shields.io/badge/Status-In--Progress-yellow) **Automated IPFS Sync** (Penyimpanan Otomatis Marketplace)
-- [ ] ![In Progress](https://img.shields.io/badge/Status-In--Progress-yellow) **ZK-SNARK Attestations** (Verifikasi Integritas Data)
-- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey) **ECDH Secure Handshake** (P2P Private Key Exchange)
+- [ ] ![In Progress](https://img.shields.io/badge/Status-In--Progress-yellow) **Vertex dApp v1.0 Launch** (Mainnet Gateway Interface)
+- [ ] ![In Progress](https://img.shields.io/badge/Status-In--Progress-yellow) **Automated IPFS Sync** (Automatic Storage for Marketplace Items)
+- [ ] ![In Progress](https://img.shields.io/badge/Status-In--Progress-yellow) **ZK-SNARK Attestations** (On-chain Data Integrity Verification)
+- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey) **ECDH Secure Handshake** (Private P2P Key Exchange Logic)
 
 ---
 
 ### 🟩 PHASE 3: ECOSYSTEM EXPANSION
-> **Focus:** Skalabilitas penyimpanan dan adopsi pengembang.
+> **Focus:** Scaling storage capacity and empowering the developer community.
+> 
+> ![Progress](https://geps.dev/progress/15)
 
-- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **100GB Massive Storage Extension**
-- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **Open Source API & SDK Release**
-- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **Multi-Storage Adapters** (Arweave & Filecoin Integration)
-- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **Metadata Shielding v2** (Enhanced Anonymity)
+- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **100GB Massive Storage Extension** (High-Throughput Fragmentation)
+- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **Open Source API & SDK Release** (Developer Integration Kit)
+- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **Multi-Storage Adapters** (Arweave & Filecoin Redundancy)
+- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **Metadata Shielding v2** (Advanced Anonymity for Listings)
 
 ---
 
 ### 🟪 PHASE 4: GLOBAL SOVEREIGNTY
-> **Focus:** Tata kelola komunitas dan adopsi massal.
+> **Focus:** Community governance and institutional-grade privacy solutions.
+> 
+> ![Progress](https://geps.dev/progress/0)
 
-- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **Vertex DAO Governance** (Voting via $VTX)
-- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **Mobile Sovereign Vault** (Android/iOS)
-- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **ZK-Reputation System** (On-chain Trust Score)
-- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **Institutional Data API** (Enterprise Solutions)
+- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **Vertex DAO Governance** (Decentralized Voting via $VTX)
+- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **Mobile Sovereign Vault** (Biometric Encryption for Android/iOS)
+- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **ZK-Reputation System** (Math-Based Trust Score)
+- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **Institutional Data API** (Enterprise Sovereign Solutions)
 
 ---
 

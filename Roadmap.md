@@ -1,44 +1,66 @@
-# 🗺️ Vertex Privacy: The Path to Data Sovereignty
+# 🗺️ Vertex Privacy: Strategic Roadmap
 
-Vertex Privacy is not just an application; it is an evolving cryptographic infrastructure built on the Binance Smart Chain (BSC). Our roadmap focuses on scaling the "Dark-State" economy through Zero-Knowledge innovation and decentralized storage.
+> **Status Proyek:** ![Development](https://img.shields.io/badge/Status-Active-brightgreen) ![Security](https://img.shields.io/badge/Security-ZK--SNARKs-blue) ![Network](https://img.shields.io/badge/Network-BSC-yellow)
 
----
-
-## 🚀 Development Roadmap
-
-### **Phase 1: Genesis & Core Protocol (Q1 - Q2 2024)** *Focus: Establishing the mathematical foundation.*
-* **[COMPLETED]** **Whitepaper Release**: Technical documentation of the Poseidon-ZK pipeline.
-* **[COMPLETED]** **Smart Contract Deployment**: Core atomic swap and escrow contracts live on BSC Testnet.
-* **[COMPLETED]** **Poseidon Cipher Implementation**: Optimized local encryption for ZK-circuit efficiency.
-* **[COMPLETED]** **$VTX Token Launch**: Deployment of the 1,000,000,000 $VTX utility token.
+Berikut adalah peta jalan pengembangan **Vertex Privacy** untuk membangun infrastruktur perdagangan data yang berdaulat.
 
 ---
 
-### **Phase 2: The Dark Marketplace (Q3 - Q4 2024)** *Focus: User experience and decentralized infrastructure.*
-* **[IN PROGRESS]** **Vertex Privacy dApp (v1.0)**: Launch of the primary gateway for private P2P trade.
-* **[IN PROGRESS]** **IPFS Integration**: Automated "Dark-State" storage for all marketplace listings.
-* **[IN PROGRESS]** **ZK-SNARK Attestations**: Implementation of "Proof of Integrity" for metadata verification.
-* **[PLANNED]** **ECDH Secure Handshake**: Finalizing the non-custodial key exchange protocol.
+### 🟦 PHASE 1: GENESIS & CORE PROTOCOL
+> **Focus:** Membangun fondasi kriptografi yang solid.
+
+- [x] ![Completed](https://img.shields.io/badge/Status-Completed-success) **Whitepaper v1.0 Release** (Vertex Privacy Branding)
+- [x] ![Completed](https://img.shields.io/badge/Status-Completed-success) **$VTX Token Deployment** (1,000,000,000 Supply)
+- [x] ![Completed](https://img.shields.io/badge/Status-Completed-success) **Poseidon Cipher Implementation** (ZK-Friendly Encryption)
+- [x] ![Completed](https://img.shields.io/badge/Status-Completed-success) **Core Smart Contracts** (BSC Testnet)
 
 ---
 
-### **Phase 3: Ecosystem Expansion (Q1 - Q2 2025)** *Focus: Scaling storage and developer adoption.*
-* **100GB Storage Extension**: Upgrading fragmentation logic to support massive datasets without performance loss.
-* **Open Source API Release**: Public access to Vertex ZK-libraries for third-party integration.
-* **Metadata Shielding v2**: Advanced ZK-hidden attributes to mask file names and specific sender habits.
-* **Cross-Chain Storage Adapters**: Integrating Arweave and Filecoin as alternative decentralized backends.
+### 🟨 PHASE 2: THE DARK MARKETPLACE
+> **Focus:** Peluncuran dApp dan integrasi penyimpanan terdesentralisasi.
+
+- [ ] ![In Progress](https://img.shields.io/badge/Status-In--Progress-yellow) **Vertex dApp v1.0 Launch** (Mainnet Gateway)
+- [ ] ![In Progress](https://img.shields.io/badge/Status-In--Progress-yellow) **Automated IPFS Sync** (Penyimpanan Otomatis Marketplace)
+- [ ] ![In Progress](https://img.shields.io/badge/Status-In--Progress-yellow) **ZK-SNARK Attestations** (Verifikasi Integritas Data)
+- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-lightgrey) **ECDH Secure Handshake** (P2P Private Key Exchange)
 
 ---
 
-### **Phase 4: Vertex Prime & Global Scale (Q3 2025 - 2026)** *Focus: Institutional grade privacy and mass adoption.*
-* **ZK-Reputation System**: On-chain trust scores based on successful mathematical verifications.
-* **Mobile dApp (Android/iOS)**: Secure mobile gateway with biometric encryption for local ZK-proof generation.
-* **Vertex SDK for Enterprise**: Helping businesses monetize private research and data archives trustlessly.
-* **Governance DAO**: Transitioning protocol upgrades to $VTX token holders.
+### 🟩 PHASE 3: ECOSYSTEM EXPANSION
+> **Focus:** Skalabilitas penyimpanan dan adopsi pengembang.
+
+- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **100GB Massive Storage Extension**
+- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **Open Source API & SDK Release**
+- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **Multi-Storage Adapters** (Arweave & Filecoin Integration)
+- [ ] ![Planned](https://img.shields.io/badge/Status-Planned-blue) **Metadata Shielding v2** (Enhanced Anonymity)
 
 ---
 
-## 🛠️ Technical Pillars
-| Technology | Role | Benefit |
+### 🟪 PHASE 4: GLOBAL SOVEREIGNTY
+> **Focus:** Tata kelola komunitas dan adopsi massal.
+
+- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **Vertex DAO Governance** (Voting via $VTX)
+- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **Mobile Sovereign Vault** (Android/iOS)
+- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **ZK-Reputation System** (On-chain Trust Score)
+- [ ] ![Future](https://img.shields.io/badge/Status-Future-purple) **Institutional Data API** (Enterprise Solutions)
+
+---
+
+### 🛠️ Technical Readiness Level
+| Component | Readiness | Tech Stack |
 | :--- | :--- | :--- |
-| **ZK
+| **ZK-Circuit** | 🟢 90% | Circom / Groth16 |
+| **Encryption** | 🟢 100% | Poseidon Cipher |
+| **P2P Network** | 🟡 65% | IPFS / Libp2p |
+| **Settlement** | 🟢 85% | Solidity / BSC |
+
+---
+
+## 📈 Token Utility ($VTX)
+[cite_start]The $VTX token is the engine of the Vertex economy[cite: 218]:
+- [cite_start]**ZK-Attestation Fees**: Paid for proof generation and verification[cite: 218].
+- [cite_start]**API Access Credits**: For developers building on the Vertex backbone[cite: 219].
+- [cite_start]**Storage Incentives**: Rewarding IPFS pinners and storage providers[cite: 220].
+- [cite_start]**Protocol Governance**: Voting on ecosystem fund allocations[cite: 221].
+
+---
